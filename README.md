@@ -21,7 +21,9 @@ java -jar target/threading-assignment-1.0-SNAPSHOT.jar --employee-data={EMPLOYEE
   - `--department-data`
   - `--output`
 
-The default parameters if the command line args are not provided are pointing to the files in the `src/main/resources`.
+- If the command line args are not provided, the default parameters are pointing to the files in the `src/main/resources`.
+  - This was done during the testing phase when I was running the project within the project folder.
+- Please note the app assumes that the structure of the csv provided need to match the number of columns and column type.
 
 ## Data Types
 
